@@ -20,7 +20,7 @@ function newQuote(){
     document.body.style.backgroundColor = "#" + randomColor;
     btn.style.backgroundColor = "#" + randomColor;
     quote.style.color = "#" + randomColor;
-    quote.textContent = quotes[randomNumber];
+    quote.textContent = `" ${quotes[randomNumber]}`;
 
 }
 
